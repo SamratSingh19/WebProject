@@ -2,6 +2,13 @@
 <html>
 <head>
 <title>Hello</title>
+   <link rel="stylesheet" href="java.css">
+</head>
+<body>
+<h3 id="message">
+To see the sum of 10+20 program greeting ,click below.
+</h3>
+<input type="button" value="Click Me!" onclick="addNumbers();">
 <script>
 function addNumbers(){
 	var result;
@@ -12,11 +19,6 @@ function addNumbers(){
 	result.outerHTML=`<h1> Sum=${a*b}</h1>`;
 }
 </script>
-</head>
-<body>
-<h3 id="message">
-To see the sum of 10+20 program greeting ,click below.
-</h3>
-<input type="button" value="Click Me!" onclick="addNumbers();">
 </body>
+
 </html>
